@@ -1,0 +1,33 @@
+/*fix selector css 
+format all of h4 element text color will follow it
+*/
+h4{
+    color: blueviolet;
+}
+/*class selector css format
+    can use many elemant
+*/
+.italic-text{
+    color: cadetblue;
+    font-style: italic;
+}
+/*id selector css format
+  can use only 1 element "unique"
+*/
+#main{
+    color: green;
+}
+/*attribute selector css format
+*/
+p[draggable="false"]{
+    color: red;
+}
+p[draggable="true"]{
+    color: blue;
+}
+/*Universal selector css format
+selec all including id selector
+*/
+*{
+    color: rosybrown;
+}

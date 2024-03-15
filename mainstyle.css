@@ -1,0 +1,27 @@
+h1{
+    color: darkcyan;
+}
+h3{
+    color: darkolivegreen;
+}
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+}
+p{
+    color: red;
+}
+.note{
+    font-size: 20px;
+}
+#id-selector-demo{
+    color:green;
+}
+li[value="4"]{
+    color: brown;
+}
+*{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
